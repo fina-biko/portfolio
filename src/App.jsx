@@ -60,7 +60,7 @@ const App = () => {
         <section className="w-2/3 flex flex-col mt-2">
 
           {/* Header Section */}
-          <section className="w-full h-16 flex items-center justify-between bg-gray-950 rounded-lg shadow-md p-4">
+          <section className="w-full  md:h-16 flex items-center justify-between bg-gray-950 rounded-lg shadow-md p-4">
             <Header />
           </section>
 
