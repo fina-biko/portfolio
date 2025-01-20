@@ -1,8 +1,8 @@
 const Header = () => {
   return (
       <div
-          className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 w-full items-start md:items-end justify-start md:justify-end overflow-x-auto">
-          <div className="mb-4 md:mb-0">
+           className="flex flex-row space-y-2 space-x-2  w-full items-start justify-start md:flex-row md:space-x-4 md:space-y-0 md:items-end md:justify-end lg:space-x-6">
+          <div className="mb-1 md:mb-0.5">
               <a
                   href="/src/components/About.jsx"
                   className="text-white hover:underline"
@@ -10,7 +10,7 @@ const Header = () => {
                   About
               </a>
           </div>
-          <div className="mb-4 md:mb-0">
+          <div className="mb-1 md:mb-4">
               <a
                   href="/src/components/Projects.jsx"
                   className="text-white hover:underline"
@@ -18,7 +18,7 @@ const Header = () => {
                   Projects
               </a>
           </div>
-          <div className="mb-4 md:mb-0">
+          <div className="mb-1 md:mb-4">
               <a
                   href="/src/components/Resume.jsx"
                   className="text-white hover:underline"
@@ -26,7 +26,7 @@ const Header = () => {
                   Resume
               </a>
           </div>
-          <div className="mb-4 md:mb-0">
+          <div className="mb-1 md:mb-4">
               <a
                   href="/src/components/Contact.jsx"
                   className="text-white hover:underline"
