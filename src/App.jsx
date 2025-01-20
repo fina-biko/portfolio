@@ -31,10 +31,11 @@ const App = () => {
           {/* skills and competencies section Section */}
           <section className=" flex flex-col md:flex-row">
             <section id="skills" className="m-1">
+              <h2 className="text-white font-bold mb-4">Skills and Competencies</h2>
               <Skills/>
             </section>
 
-            <section id="skills" className="m-1">
+            <section id="skills" className="md:mt-9 ">
               <Skills/>
             </section>
 
@@ -80,7 +81,7 @@ const App = () => {
 
 
 {/* Footer Section */}
-          <section id="footer" className=" flex flex-col text-white mt-auto bg-gray-900 rounded-lg">
+          <section id="footer" className=" flex flex-col md:flex-row text-white mt-auto bg-gray-900 rounded-lg">
             <Footer/>
           </section>
     </div>

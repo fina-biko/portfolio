@@ -5,7 +5,7 @@ const Skills = () => {
     { name: "Python"  },
     { name: "JavaScript"},
     { name: "CSS" },
-    { name: "Machine Learning" },
+    { name: "Machine Learning and deep learning " },
       { name: "Frontend Dev" },
       { name: "Backend dev" },
       { name: "API intergration" },
@@ -14,8 +14,8 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-6 bg-gray-900 rounded-lg m-2">
-      <h2 className="text-white font-bold mb-4">Skills and Competencies</h2>
+    <section className=" flex flex-col  md:flex-row py-6 bg-gray-900 rounded-lg m-2">
+
       <div className="text-gray-400">
         {skills.map((skill) => (
           <SkillBar key={skill.name} skill={skill.name}  />

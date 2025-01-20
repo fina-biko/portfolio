@@ -1,7 +1,7 @@
 const Header = () => {
   return (
       <div
-           className="flex flex-row space-y-2 space-x-2  w-full items-start justify-start md:flex-row md:space-x-4 md:space-y-0 md:items-end md:justify-end lg:space-x-6">
+           className="flex flex-col space-y-2 space-x-2  w-full items-start justify-start md:flex-row md:space-x-4 md:space-y-0 md:items-end md:justify-end lg:space-x-6">
           <div className="mb-1 md:mb-0.5">
               <a
                   href="/src/components/About.jsx"
