@@ -64,7 +64,7 @@ const App = () => {
           </section>
 
           {/* About Section */}
-          <section id="about" className="pt-4 bg-gray-950 m-1 rounded-lg shadow-md">
+          <section id="about" className="bg-gray-950 m-1 rounded-lg shadow-md">
             <About />
           </section>
 

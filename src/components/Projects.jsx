@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-      <div className="p-6 bg-gray-950 rounded-lg shadow-lg">
+      <div className="p-4 bg-gray-950 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-white mb-6 border-b border-gray-800 pb-2">Sample Projects,
           <a href="/projects" className="text-blue-500 hover:underline ml-2">
             view more
