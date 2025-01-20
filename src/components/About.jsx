@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center py-4 px-4 bg-gray-950 rounded-lg shadow-lg">
+    <div className="flex flex-col   md:flex-row justify-between items-center py-4 px-4 bg-gray-950 rounded-lg shadow-lg">
       {/* Text Section  hapa*/}
       <div className="text-white w-full md:w-2/3 mb-8 md:mb-0">
         <h1 className="text-3xl font-bold mb-4">Hello, Welcome to Rufina's Portfolio!</h1>

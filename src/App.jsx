@@ -16,7 +16,7 @@ const App = () => {
         <section className="w-1/3 bg-gray-950 flex flex-col m-2 p-4 rounded-lg shadow-md">
 
           {/* About */}
-          <section className=" py-4 bg-gray-900 rounded-lg m-2">
+          <section className=" py-4 bg-gray-900 rounded-lg m-2 ">
             <div className="flex w-full md:w-1/3">
               <img
                   src="public/linkedin_photo.jpeg"
