@@ -29,7 +29,7 @@ const App = () => {
 
 
           {/* skills and competencies section Section */}
-          <section className=" flex flex-row">
+          <section className=" flex flex-col md:flex-row">
             <section id="skills" className="m-1">
               <Skills/>
             </section>
